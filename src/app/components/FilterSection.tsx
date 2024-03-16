@@ -12,9 +12,6 @@ export function FilterSection() {
     </form>
 }
 
-
-
-
 function DateInputs() {
     return <div className="gid grid-flow-row grid-cols-12">
         <div className="col-span-4">

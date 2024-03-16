@@ -3,6 +3,7 @@ import { Navbar } from "./components/NavBar";
 import { Section } from "./components/Section";
 import { CsvSection } from "./components/CsvSection";
 import { FilterSection } from "./components/FilterSection";
+import ChartSection from "./components/ChartSection";
 
 export default function Home() {
   return (
@@ -15,8 +16,11 @@ export default function Home() {
           <div className="col-span-4">
             <FilterSection />
           </div>
+          <div className="col-span-12">
+          <ChartSection />
+          </div>
         </div>
-
+        
       </Section>
 
     </main>
